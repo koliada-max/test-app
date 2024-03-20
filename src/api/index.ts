@@ -44,8 +44,8 @@ export const resetPassword = async (email: string): Promise<any> => {
 
 export const setPassword = async (
   password: string,
-  token: any,
-  secret: any,
+  token: string | null,
+  secret: string | null,
   confirmPassword: string
 ): Promise<any> => {
   try {
@@ -59,7 +59,8 @@ export const setPassword = async (
 
     if (!response.ok) {
       const errorData = await response.json();
-      throw new Error(errorData.detail || 'An error occurred');
+      console.log(errorData);
+      throw new Error(errorData.detail[0].error || 'An error occurred');
     }
 
     return await response.json();
