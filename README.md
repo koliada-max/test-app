@@ -14,7 +14,7 @@ Before you begin, ensure you have the following installed on your system:
 
 Clone this repository to your local machine using Git:
 
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/koliada-max/test-app.git
 cd your-repo-name
 
 
