@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0 auto;
+  font-family: 'Basis Grotesque Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+
+html,
+body {
+  margin: 0 auto;
+  overflow-x: hidden;
+}

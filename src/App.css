@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Basis Grotesque Pro';
+  src: url('./Components/fonts/BasisGrotesquePro-Bold.ttf') format('truetype'),
+    url('./Components/fonts/BasisGrotesquePro-Light.ttf') format('truetype'),
+    url('./Components/fonts/BasisGrotesquePro-Regular.ttf') format('truetype');
+}
